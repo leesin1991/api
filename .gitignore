@@ -4,9 +4,8 @@
 /tests/*
 /phpunit.xml
 
-/var/*
-/logs/*
-
+/var
+/logs
 
 /vendor
 
