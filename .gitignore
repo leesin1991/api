@@ -1,25 +1,14 @@
 /app/settings.php
 /app/dependencies.php
-/logs/*
 
 /tests/*
 /phpunit.xml
 
 /var/*
-!/var/.gitkeep
-!/var/cache
-/var/cache/*
-!var/cache/.gitkeep
-!/var/logs
-/var/logs/*
-!var/logs/.gitkeep
-!/var/sessions
-/var/sessions/*
-!var/sessions/.gitkeep
-/var/keys/*
+/logs/*
 
 
-/vendor/
+/vendor
 
 /web/bundles/
 /web/upload/
