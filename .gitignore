@@ -1,15 +1,15 @@
 /app/settings.php
 /app/dependencies.php
 
-/tests/
+/tests/*
 
-/var/logs/
-/var/key/
+/var/logs/*
+/var/key/*
 
-/vendor/
+/vendor/*
 
-/web/back/
-/web/upload/
+/web/back/*
+/web/upload/*
 
 /phpunit.xml
 
@@ -19,9 +19,3 @@
 
 /.idea
 /.project
-
-*DS_Store
-
-*.swp
-*.swo
-*.swn
