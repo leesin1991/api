@@ -69,18 +69,6 @@ class Controller extends AbstractController
         return $server->getPrePayOrder($bizcontent);
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
     public function notFound($req, $res) {
         $data = array();
         $html = $this->view('/404.html', $data);
