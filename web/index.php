@@ -9,6 +9,8 @@ if (PHP_SAPI == 'cli-server') {
     }
 }
 
+date_default_timezone_set('PRC'); 
+
 require __DIR__ . '/../vendor/autoload.php';
 
 session_start();
@@ -26,5 +28,7 @@ require __DIR__ . '/../app/middleware.php';
 // Register routes
 require __DIR__ . '/../app/routes.php';
 
+// Common Ffnction
+require __DIR__ . '/../app/function.php';
 // Run app
 $app->run();

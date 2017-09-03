@@ -1,28 +1,17 @@
 /app/settings.php
 /app/dependencies.php
-/logs/*
 
-/tests/*
-/phpunit.xml
+/tests/
 
-/var/*
-!/var/.gitkeep
-!/var/cache
-/var/cache/*
-!var/cache/.gitkeep
-!/var/logs
-/var/logs/*
-!var/logs/.gitkeep
-!/var/sessions
-/var/sessions/*
-!var/sessions/.gitkeep
-/var/keys/*
-
+/var/logs/
+/var/key/
 
 /vendor/
 
-/web/bundles/
+/web/back/
 /web/upload/
+
+/phpunit.xml
 
 /composer.json
 /composer.phar

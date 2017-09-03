@@ -11,25 +11,9 @@ abstract class AbstractController
 {
     protected $container;
 
-    protected $db;
-
-    protected $view;
-
-    protected $redis;
-
-    protected $mongo;
-
-    protected $oauth2;
-
     public function __construct(ContainerInterface $container)
     {
         $this->container = $container;
-        $this->db = $container->get('db');
-        $this->redis = $container->get('redis');
-        $this->mongo = $container->get('mongodb'); 
-        $this->oauth2 = $container->get('oauth2'); 
-        $this->view = $container->get('renderer');
-        // print_r($this->oauth2);die;
     }
    
     protected function jsonSuccess(Response $response, $data = null, $message = '')
