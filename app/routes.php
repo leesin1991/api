@@ -1,7 +1,6 @@
 <?php
 // Routes
 
-<<<<<<< HEAD
 $app->any('/', 'Api\Controller\Index:index');
 $app->any('/test', 'Api\Controller\v1\Test:index');
 
@@ -33,18 +32,4 @@ $app->group('/v1', function () {
     return $next($request, $response);
 });
 
-// ->add(function ($request, $response, $next) {
-//     $rs = $this->get('api.oauth.controller')->resource($request, $response, $next);
-//     print_r($rs);die;
-// });
-=======
-// $app->get('/[{name}]', function ($request, $response, $args) {
-//     // Sample log message
-//     $this->logger->info("Slim-Skeleton '/' route");
 
-//     // Render index view
-//     return $this->renderer->render($response, 'index.phtml', $args);
-// });
-
-$app->get('/', 'Api\Controller\Index:test');
->>>>>>> origin/master
